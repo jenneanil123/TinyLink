@@ -1,0 +1,21 @@
+tinylink/
+ ├─ app/
+ │   ├─ page.tsx                # Dashboard
+ │   ├─ healthz/route.ts        # Healthcheck
+ │   ├─ code/
+ │   │   └─ [code]/page.tsx     # Stats page
+ │   ├─ [code]/route.ts         # Redirect
+ │   └─ api/
+ │       └─ links/
+ │           ├─ route.ts        # POST + GET
+ │           └─ [code]/route.ts # GET stats + DELETE
+ ├─ prisma/
+ │   └─ schema.prisma
+ ├─ lib/
+ │   └─ db.ts
+ ├─ components/
+ │   ├─ AddForm.tsx
+ │   └─ LinkTable.tsx
+ ├─ .env.example
+ ├─ package.json
+ └─ tailwind.config.js
